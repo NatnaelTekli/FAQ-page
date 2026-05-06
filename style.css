@@ -3,6 +3,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   background-color: #F8FAFC;
+  color: #030616;
 }
 
 h1 {
@@ -22,11 +23,11 @@ h2 {
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 #lower-body {
-  width: 70%;
+  max-width: 800px;
   margin: 2rem auto;
   padding: 2rem 0;
 }
@@ -36,12 +37,16 @@ hr {
 }
 
 p, li {
-  line-height: 2rem;
+  line-height: 1.5rem;
 }
 
 a {
   text-decoration: none;
   color: #4E80EE;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 640px) {
